@@ -52,7 +52,7 @@
     line-height: 50px;
   }
 }
-@media (max-width: 1041px) {
+@media (max-width: 1125px) {
   /* burger */
   .menu-btn {
     display: block;
@@ -91,9 +91,6 @@
   }
   .nav__menu {
     flex-direction: column;
-  }
-  .nav__menu a {
-    color: #FBFF22;
   }
   .nav.active {
     transform: translateX(0);
@@ -345,6 +342,7 @@ ul li {
   font-size: 28px;
   font-weight: bold;
   color: #fff;
+  transition: 0.3s;
 }
 
 .close:hover,
@@ -378,10 +376,12 @@ ul li {
   height: 40px;
   border: 1px solid #FBFF22;
   padding-left: 20px;
+  font-size: 18px;
 }
 .modal-input-email::placeholder {
   text-transform: uppercase;
   color: #000;
+  font-size: 18px;
 }
 .modal-input-email:focus {
   border: 1px solid rgb(54, 3, 241);

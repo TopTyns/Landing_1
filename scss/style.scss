@@ -86,6 +86,7 @@ ul li {
     font-size: 28px;
     font-weight: bold;
     color: #fff;
+    transition: .3s;
 }
 
 .close:hover,
@@ -119,10 +120,12 @@ ul li {
     height: 40px;
     border: 1px solid $main_color-2;
     padding-left: 20px;
+    font-size: 18px;
 
     &::placeholder {
         text-transform: uppercase;
         color: $main_color-3;
+        font-size: 18px;
     }
 
     &:focus {
